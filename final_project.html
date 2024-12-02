@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Future Intelligence</title>
+    <style>
+      h1 {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        color: black;
+        border: 2px solid darkblue;
+        border-radius: 5px;
+        padding: 12px;
+        max-width: 350px;
+        font-size: 38px;
+      }
+      h2 {
+        text-align: center;
+        font-size: 25px;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 5px;
+      }
+      p {
+        line-height: 1.5;
+        font-size: 15px;
+        margin: 20px 0 10px;
+      }
+      .para {
+        font-size: 20px;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        background: #f7ede9;
+        color: darkblue;
+        font-size: 20px;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 6px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 15px 60px;
+        background: linear-gradient(to bottom, #fff1eb 0%, #ace0f9 100%);
+      }
+      .website {
+        color: #551a8b;
+
+        font-size: 18px;
+      }
+      .website:hover {
+        cursor: pointer;
+      }
+      .footer {
+        text-align: center;
+      }
+      .buy {
+        margin: 10px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Mini Robot</h1>
+      <h2>Tiny TechBot</h2>
+      <img
+        src="https://img.freepik.com/premium-photo/cute-small-robot_933329-209.jpg"
+        width="300"
+        alt="Tiny Automaton"
+      />
+      <p class="para">
+        <strong>A Mini Robot</strong> is a <em>compact</em>,
+        <em>autonomous device</em> designed to perform a variety of tasks and
+        functions in a small form factor. Typically measuring just a few
+        centimeters in height and width, these robots are equipped with
+        <em>sensors, cameras, and connectivity </em>options like Bluetooth and
+        Wi-Fi to interact with their environment and other devices. They can be
+        controlled via smartphone apps, voice commands, or pre-programmed
+        routines, and are often powered by rechargeable batteries.
+      </p>
+      <p class="para">
+        Mini robots are capable of tasks
+        <em
+          >such as navigating around obstacles, fetching small objects,
+          delivering messages, and providing reminders.</em
+        >
+        With machine learning capabilities, they can adapt to user preferences
+        and improve their functionality over time, making them useful in
+        <em
+          >home automation, education, entertainment, and personal
+          assistance.</em
+        >
+      </p>
+      <a
+        href="https://en.wikipedia.org/wiki/Robot"
+        target="_blank"
+        class="website"
+        >Explore more</a
+      ><span></span>
+      <br />
+      <button class="buy">Buy Mini Robot</button>
+      <p class="footer">
+        Designed by <strong><em>Boda Malini</em></strong>
+      </p>
+    </div>
+    <script>
+      function buy() {
+        let name = prompt("What's your name?");
+        alert("Thank You " + name + "! We'll reach you out soon.😊");
+      }
+      let buybutton = document.querySelector("button");
+      buybutton.addEventListener("click", buy);
+    </script>
+  </body>
+</html>
